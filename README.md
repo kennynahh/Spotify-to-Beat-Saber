@@ -17,4 +17,4 @@ You may also need to install the following packages:
 
 ## Using the script
 
-run `script.py` first, wait for the .csv file to be generated (may take a while depending on the size of your library), and then run `beatsaver.py`.
+run `script.py` first, wait for the .csv file to be generated (may take a while depending on the size of your library), and then run `beatsaver.py`. This will leave you with a folder of custom songs that match the names of your liked songs, which you can then move into wherever your Beat Saber custom songs folder is.
