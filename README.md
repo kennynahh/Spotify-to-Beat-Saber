@@ -8,3 +8,7 @@ Before running the script, you need to set up your Spotify API credentials. Foll
 1. Visit the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/) to create an app.
 2. Open `config.ini` and replace `your_client_id_here`, `your_client_secret_here`, and `your_redirect_uri_here` with your Spotify application's credentials.
 3. It is reccommended you set `your_redirect_uri_here` as "http://localhost:8888/callback".
+
+You may also need to install the following packages:
+
+`pip3 install spotipy`
