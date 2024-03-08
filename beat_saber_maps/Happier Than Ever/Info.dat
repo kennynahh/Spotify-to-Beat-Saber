@@ -1,0 +1,60 @@
+{
+  "_version": "2.0.0",
+  "_songName": "Happier Than Ever",
+  "_songSubName": "[Rock Part]",
+  "_songAuthorName": "Billie Eilish",
+  "_levelAuthorName": "Liller",
+  "_beatsPerMinute": 162,
+  "_shuffle": 0,
+  "_shufflePeriod": 0.5,
+  "_previewStartTime": 12,
+  "_previewDuration": 10,
+  "_songFilename": "song.egg",
+  "_coverImageFilename": "cover.jpg",
+  "_environmentName": "NiceEnvironment",
+  "_allDirectionsEnvironmentName": "GlassDesertEnvironment",
+  "_songTimeOffset": 0,
+  "_difficultyBeatmapSets": [
+    {
+      "_beatmapCharacteristicName": "Standard",
+      "_difficultyBeatmaps": [
+        {
+          "_difficulty": "Expert",
+          "_difficultyRank": 7,
+          "_beatmapFilename": "ExpertStandard.dat",
+          "_noteJumpMovementSpeed": 18,
+          "_noteJumpStartBeatOffset": 0,
+          "_customData": {
+            "_editorOffset": 0,
+            "_editorOldOffset": 0,
+            "_obstacleColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0
+            },
+            "_envColorRight": {
+              "r": 0.7,
+              "g": 0.5,
+              "b": 0.4
+            },
+            "_envColorLeft": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "_colorRight": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "_colorLeft": {
+              "r": 0.7,
+              "g": 0.5,
+              "b": 0.4
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
