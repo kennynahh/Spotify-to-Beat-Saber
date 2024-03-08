@@ -1,8 +1,9 @@
 import configparser
+import csv
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
-def main():
+def fetch_liked_songs():
     # Load configuration
     config = configparser.ConfigParser()
     config.read('config.ini')
@@ -38,16 +39,13 @@ def main():
 def save_songs_to_csv(liked_songs):
     with open('liked_songs.csv', mode='w', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
-        writer.writerow(['Title', 'Artist'])
+        writer.writerow(['Title', 'Artist'])  # Writing header row
         for song in liked_songs:
             writer.writerow([song['title'], song['artist']])
 
-def main():
+if __name__ == '__main__':
     liked_songs = fetch_liked_songs()
     if liked_songs:
         save_songs_to_csv(liked_songs)
     else:
         print("No liked songs found.")
-
-if __name__ == '__main__':
-    main()
