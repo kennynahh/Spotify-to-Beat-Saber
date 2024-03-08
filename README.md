@@ -14,3 +14,7 @@ Before running the script, you need to set up your Spotify API credentials. Foll
 You may also need to install the following packages:
 
 `pip3 install spotipy`
+
+## Using the script
+
+run `script.py` first, wait for the .csv file to be generated (may take a while depending on the size of your library), and then run `beatsaver.py`.
