@@ -19,8 +19,10 @@ You may also need to install the following packages:
 
 run `script.py` first, wait for the .csv file to be generated (may take a while depending on the size of your library), and then run `beatsaver.py`. This will leave you with a folder of custom songs that match the names of your liked songs, which you can then move into wherever your Beat Saber custom songs folder is.
 
-## Things to know
+## Notes
 
 There are just too many random songs out there mapped in Beat Saver with similar (or identical) names to popular songs. This means that a percentage of the downloaded songs will not be what you wanted. To delete songs quickly and easily while in-game, I suggest using the SongBrowser mod. Maybe I'll add additional song-checking methods in the future, but I am by no means a good programmer, so this is what I've got for ya.
 
 You may also run into API rate limitations if your library is exceptionally large.
+
+### Hope this helped!
