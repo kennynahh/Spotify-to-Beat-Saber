@@ -1,7 +1,7 @@
 # Spotify to Beat Saber
 Download your Spotify liked songs directly into Beat Saber!
 
-This was built so I could get as many of my 2500+ Spotify liked songs into Beat Saber. I was sick of searching for individual songs.
+This was built so I could get as many of my 2500+ Spotify liked songs into Beat Saber.
 
 ## Configuration
 
