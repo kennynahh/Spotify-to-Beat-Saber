@@ -10,8 +10,15 @@ def search_beatsaver(title, artist):
     response = requests.get(url)
     if response.status_code == 200:
         data = response.json()
-        if data['docs']:
-            return data['docs'][0]['versions'][-1]['downloadURL']
+        for doc in data['docs']:
+            # Retrieve the song title and artist name from the metadata
+            song_title = doc['metadata']['songName'].lower()
+            song_artist = doc['metadata']['songAuthorName'].lower()
+            
+            # Compare them with the search criteria (case-insensitive)
+            if song_title == title.lower() and song_artist == artist.lower():
+                # Return the download URL of the first version that exactly matches
+                return doc['versions'][-1]['downloadURL']
     return None
 
 # Updated function to download and extract a map
