@@ -1,7 +1,6 @@
 # Spotify to Beat Saber
-Download your Spotify liked songs directly into Beat Saber!
 
-This was built so I could get as many of my 2500+ Spotify liked songs into Beat Saber.
+I built this so I could get as many of my 2500+ Spotify liked songs into Beat Saber. Now it's your turn!
 
 ## Configuration
 
@@ -21,8 +20,8 @@ run `script.py` first, wait for the .csv file to be generated (may take a while 
 
 ## Notes
 
-There are just too many random songs out there mapped in Beat Saver with similar (or identical) names to popular songs. This means that a percentage of the downloaded songs will not be what you wanted. To delete songs quickly and easily while in-game, I suggest using the SongBrowser mod. Maybe I'll add additional song-checking methods in the future, but I am by no means a good programmer, so this is what I've got for ya.
+There are just too many random songs out there mapped in Beat Saver with similar (or identical) names to popular songs. This means that a percentage of the downloaded songs will not be what you wanted. To delete songs quickly and easily while in-game, I suggest using the SongBrowser mod.
 
 You may also run into API rate limitations if your library is exceptionally large.
 
-### Hope this helped!
+Hope this helped!
